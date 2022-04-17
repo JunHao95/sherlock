@@ -1597,6 +1597,13 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
+  "Youjizz": {
+    "errorType": "status_code",
+    "url": "https://youjizz.com/users/{}",
+    "urlMain": "https://youjizz.com/",
+    "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis7"
+  },
   "ProductHunt": {
     "errorMsg": "We seem to have lost this page",
     "errorType": "message",
