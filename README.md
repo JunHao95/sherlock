@@ -44,7 +44,14 @@ $ cd sherlock
 $ python3 -m pip install -r requirements.txt
 ```
 
-## Usage
+
+## Run in GUI Mode
+
+```console
+$ python3 main.py
+```
+
+## Usage in Command Line Interface
 
 ```console
 $ python3 sherlock --help
