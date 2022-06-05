@@ -48,7 +48,11 @@ $ python3 -m pip install -r requirements.txt
 ## Run in GUI Mode
 
 ```console
+# For simple GUI setup
 $ python3 main.py
+
+#For more user configuration, use the following command
+$ python3 GUI_sherlock.py
 ```
 
 ## Usage in Command Line Interface
