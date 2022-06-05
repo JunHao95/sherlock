@@ -376,7 +376,7 @@ def sherlock(username, site_data, query_notify,
 
         if error_text is not None:
             error_context = error_text
-    
+
         elif error_type == "message":
             # error_flag True denotes no error found in the HTML
             # error_flag False denotes error found in the HTML
@@ -538,11 +538,16 @@ def main():
                         action="store_true", dest="no_color", default=False,
                         help="Don't color terminal output"
                         )
-    parser.add_argument("username",
-                        nargs="+", metavar="USERNAMES",
+    parser.add_argument("--usernames",
+                        nargs="+",metavar="usernames",
                         action="store",
                         help="One or more usernames to check with social networks."
                         )
+    """ parser.add_argument("username",
+                        nargs="+", metavar="USERNAMES",
+                        action="store",
+                        help="One or more usernames to check with social networks."
+                        ) """
     parser.add_argument("--browse", "-b",
                         action="store_true", dest="browse", default=False,
                         help="Browse to all results on default browser.")
@@ -552,9 +557,8 @@ def main():
                         help="Force the use of the local data.json file.")
 
     args = parser.parse_args()
-
     # Check for newer version of Sherlock. If it exists, let the user know about it
-    try:
+    """ try:
         r = requests.get(
             "https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock/sherlock.py")
 
@@ -566,7 +570,7 @@ def main():
                   f"You are running version {local_version}. Version {remote_version} is available at https://git.io/sherlock")
 
     except Exception as error:
-        print(f"A problem occurred while checking for an update: {error}")
+        print(f"A problem occurred while checking for an update: {error}") """
 
     # Argument check
     # TODO regex check on args.proxy
@@ -579,7 +583,7 @@ def main():
 
     if args.tor or args.unique_tor:
         print("Using Tor to make requests")
-        
+
         print(
             "Warning: some websites might refuse connecting over Tor, so note that using this option might increase connection errors.")
 
@@ -603,10 +607,11 @@ def main():
     # Create object with all information about sites we are aware of.
     try:
         if args.local:
-            sites = SitesInformation(os.path.join(
+            sites = SitesInformationSitesInformation(os.path.join(
                 os.path.dirname(__file__), "resources/data.json"))
         else:
             sites = SitesInformation(args.json_file)
+
     except Exception as error:
         print(f"ERROR:  {error}")
         sys.exit(1)
@@ -648,7 +653,7 @@ def main():
 
     # Run report on all specified users.
     all_usernames = []
-    for username in args.username:
+    for username in args.usernames:
         if(CheckForParameter(username)):
             for name in MultipleUsernames(username):
                 all_usernames.append(name)
@@ -723,3 +728,6 @@ def main():
 if __name__ == "__main__":
     main()
     # Notify caller that all queries are finished.
+
+
+

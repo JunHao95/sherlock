@@ -1,11 +1,4 @@
 {
-  "2Dimensions": {
-    "errorType": "status_code",
-    "url": "https://2Dimensions.com/a/{}",
-    "urlMain": "https://2Dimensions.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "3dnews": {
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0434\u043b\u044f \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0430.",
     "errorType": "message",
@@ -634,13 +627,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "EyeEm": {
-    "errorType": "status_code",
-    "url": "https://www.eyeem.com/u/{}",
-    "urlMain": "https://www.eyeem.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "F3.cool": {
     "errorType": "status_code",
     "url": "https://f3.cool/{}/",
@@ -662,14 +648,6 @@
     "url": "https://fameswap.com/user/{}",
     "urlMain": "https://fameswap.com/",
     "username_claimed": "fameswap",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "FanCentro": {
-    "errorMsg": "var environment",
-    "errorType": "message",
-    "url": "https://fancentro.com/{}",
-    "urlMain": "https://fancentro.com/",
-    "username_claimed": "nielsrosanna",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "Fandom": {
@@ -723,18 +701,17 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewould"
   },
-  "Football": {
-    "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0441 \u0442\u0430\u043a\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
-    "errorType": "message",
-    "url": "https://www.rusfootball.info/user/{}/",
-    "urlMain": "https://www.rusfootball.info/",
-    "username_claimed": "solo87",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "FortniteTracker": {
     "errorType": "status_code",
     "url": "https://fortnitetracker.com/profile/all/{}",
     "urlMain": "https://fortnitetracker.com/challenges",
+    "username_claimed": "blue",
+    "username_unclaimed": "noonewouldeverusethis"
+  },
+  "Gmail": {
+    "errorType": "status_code",
+    "url": "https://gamil.com/u/{}",
+    "urlMain": "https://gmail.com/challenges",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -771,14 +748,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
-  "G2G": {
-    "errorType": "response_url",
-    "errorUrl": "https://www.g2g.com/{}",
-    "url": "https://www.g2g.com/{}",
-    "urlMain": "https://www.g2g.com/",
-    "username_claimed": "user",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "GNOME VCS": {
     "errorType": "response_url",
     "errorUrl": "https://gitlab.gnome.org/{}",
@@ -787,14 +756,6 @@
     "urlMain": "https://gitlab.gnome.org/",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "Gab": {
-    "errorMsg": "The page you are looking for isn't here.",
-    "errorType": "message",
-    "url": "https://gab.com/{}",
-    "urlMain": "https://gab.com",
-    "username_claimed": "a",
-    "username_unclaimed": "noonewouldeverusethis"
   },
   "GaiaOnline": {
     "errorMsg": "No user ID specified or user does not exist",
@@ -1634,13 +1595,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
-  "Raidforums": {
-    "errorType": "status_code",
-    "url": "https://raidforums.com/User-{}",
-    "urlMain": "https://raidforums.com/",
-    "username_claimed": "red",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "Rajce.net": {
     "errorType": "status_code",
     "url": "https://{}.rajce.idnes.cz/",
@@ -2430,22 +2384,6 @@
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
-  "eBay.com": {
-    "errorMsg": "The User ID you entered was not found. Please check the User ID and try again.",
-    "errorType": "message",
-    "url": "https://www.ebay.com/usr/{}",
-    "urlMain": "https://www.ebay.com/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
-  "eBay.de": {
-    "errorMsg": "Der eingegebene Nutzername wurde nicht gefunden. Bitte pr\u00fcfen Sie den Nutzernamen und versuchen Sie es erneut.",
-    "errorType": "message",
-    "url": "https://www.ebay.de/usr/{}",
-    "urlMain": "https://www.ebay.de/",
-    "username_claimed": "blue",
-    "username_unclaimed": "noonewouldeverusethis7"
-  },
   "eGPU": {
     "errorType": "status_code",
     "url": "https://egpu.io/forums/profile/{}/",
@@ -2701,15 +2639,6 @@
     "urlMain": "https://www.npmjs.com/",
     "username_claimed": "kennethsweezy",
     "username_unclaimed": "noonewould"
-  },
-  "opennet": {
-    "errorMsg": "\u0418\u043c\u044f \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e",
-    "errorType": "message",
-    "regexCheck": "^[^-]*$",
-    "url": "https://www.opennet.ru/~{}",
-    "urlMain": "https://www.opennet.ru/",
-    "username_claimed": "anonismus",
-    "username_unclaimed": "noneownsthisusername"
   },
   "osu!": {
     "errorType": "status_code",

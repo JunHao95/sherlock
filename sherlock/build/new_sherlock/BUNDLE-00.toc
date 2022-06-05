@@ -1,0 +1,3 @@
+([('new_sherlock',
+   '/Users/junhaotee/Desktop/Git_codes/sherlock/sherlock/dist/new_sherlock',
+   'EXECUTABLE')],)
